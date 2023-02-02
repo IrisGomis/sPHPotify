@@ -8,8 +8,8 @@
 - Iris Gomis
 - Alba Gómez
 - Ana García
-- Georgette
-- Tania
+- Georgette Velasco
+- Tania Díaz
 :smile:
 
 ## :pencil: Descripción
