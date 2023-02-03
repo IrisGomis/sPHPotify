@@ -1,0 +1,17 @@
+{
+    "name": "anaga/back",
+    "description": "Backend services to create repository",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Database\\":"database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anagararna",
+            "email": "anagararna@gmail.com"
+        }
+    ],
+    "require": {}
+}
