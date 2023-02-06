@@ -89,9 +89,10 @@ ALTER TABLE `usuarios`
 --
 -- Filtros para la tabla `usuarios`
 --
-ALTER TABLE `usuarios`
-  ADD CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `tracks` (`id_tracks`) ON DELETE CASCADE ON UPDATE CASCADE;
-COMMIT;
+-- ALTER TABLE `usuarios`
+--   ADD CONSTRAINT `usuarios_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `tracks` (`id_tracks`) ON DELETE CASCADE ON UPDATE CASCADE;
+--   ADD CONSTRAINT `usuarios_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `tracks` (`id_tracks`) ON DELETE CASCADE ON UPDATE CASCADE;
+-- COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
