@@ -36,7 +36,8 @@ CREATE TABLE `tracks` (
   `artist` varchar(90) NOT NULL,
   `genre` varchar(90) NOT NULL,
   `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  `foto` blob DEFAULT NULL
+  `foto` blob DEFAULT NULL,
+  `user_id` int(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -46,7 +47,7 @@ CREATE TABLE `tracks` (
 --
 
 CREATE TABLE `usuarios` (
-  `user_id` int(11) NOT NULL,
+  `user_id` int(250) NOT NULL,
   `name` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -74,13 +75,13 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `tracks`
 --
 ALTER TABLE `tracks`
-  MODIFY `id_tracks` int(250) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_tracks` int(250) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(250) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restricciones para tablas volcadas
