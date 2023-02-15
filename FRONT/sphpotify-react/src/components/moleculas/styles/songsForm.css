@@ -41,31 +41,26 @@
 }
 
 .elements-group {
- padding: 3%;
+ padding: 2%;
 }
 
 .elements-group label{
-
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
 }
 
 .elements-group input{
     background: rgba(255, 255, 255, 0.5);
-    width: 80%;
-    height: 30px;
+    width: 70%;
+    height: 40px;
     align-items: center;
+    border: 1px solid;
 }
 
-
-.image-thumbnail {
-    grid-row-start: 2;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+.btn-done{
+    padding: 10px 35px;
 }
-
-.image-thumbnail img {   
-    background: #fff;
-    height: 200px;
-    width: 200px;
-}
-  

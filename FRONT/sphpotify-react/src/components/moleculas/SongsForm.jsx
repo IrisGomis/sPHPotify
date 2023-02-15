@@ -18,34 +18,36 @@ function Search() {
       <form className="form-items" action="" method="">
         <div className="elements-group">
           <label for="track">Song</label>
-            <input type="text" id="track-name" placeholder="Insert New Song"></input>
+          <input type="text" id="track-name" placeholder="Insert New Song"></input>
         </div>
 
         <div className="elements-group">
           <label for="url">URL</label>
-            <input type="url" id="url-name" placeholder="URL"></input>
+          <input type="url" id="url-name" placeholder="URL"></input>
         </div>
 
         <div className="elements-group">
           <label for="artist">Artist</label>
-            <input type="text" id="artist-name" placeholder="Insert New Artist"></input>
+          <input type="text" id="artist-name" placeholder="Insert New Artist"></input>
         </div>
 
         <div className="elements-group">
           <label for="genre">Genre</label>
-            <input type="text" id="genre-name" placeholder="Insert Genre"></input>
+          <input type="text" id="genre-name" placeholder="Insert Genre"></input>
         </div>
 
         <div className="elements-group">
           <label for="date">Date</label>
-            <input type="date" id="date-name" placeholder="Insert date."></input>
+          <input type="date" id="date-name" placeholder="Insert date."></input>
         </div>
 
         <div className="elements-group">
           <label for="user">User</label>
-            <input type="text" id="user-name" placeholder="Insert New User."></input>
+          <input type="text" id="user-name" placeholder="Insert New User."></input>
         </div>
-        <button>Add Song</button>
+        <div>
+          <button className="btn-done">Done</button>
+        </div>
       </form>
 
     </div>
