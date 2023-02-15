@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ListIconos from "./ListIconos";
-import ListTrash from "./DeleteButton.jsx";
-import DeleteTrash from "./DeleteButton.jsx";
+
 
 const ListTabla = () => {
   const [data, setData] = useState([
