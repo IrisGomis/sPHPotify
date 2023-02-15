@@ -1,9 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 35% auto;
+    grid-template-rows: 33% auto 33%;
+}
+
 .logoBM{
-    height: 35vh;
-    padding: 4%;
-}
-
-.form-elements{
-    display: ;
+    height: 100%;
+    justify-self: center;
 
 }
+
+.img-added{
+    grid-row-start: 2;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    align-items: center;
+    justify-self: center;
+    background: #fff;
+    align-self: center;
+}
+
+.img-imput{
+    grid-row-start: 3;
+    align-items: center;
+    justify-self: center;
+}
+
+.form-items{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin-top: 10%;
+}
+
+.elements-group {
+ padding: 3%;
+}
+
+.elements-group label{
+
+}
+
+.elements-group input{
+    background: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    height: 30px;
+    align-items: center;
+}
+
+
+.image-thumbnail {
+    grid-row-start: 2;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-thumbnail img {   
+    background: #fff;
+    height: 200px;
+    width: 200px;
+}
+  
