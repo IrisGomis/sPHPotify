@@ -11,9 +11,8 @@ function Search() {
         <img src="" alt=""/>
       </div>
       <div className="img-imput">
-        <input type="file" name="image"  />
+        <input type="file" name="image"/>
         <br></br>
-        <input type="submit" value="Upload Image" />
       </div>
       <form className="form-items" action="" method="">
         <div className="elements-group">
