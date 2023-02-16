@@ -7,7 +7,6 @@ import ListViewTrainer from './components/views/ListViewTrainer';
 function App() {
   return (
     <div>
-
       <ListViewTrainer />
     </div>
   );
