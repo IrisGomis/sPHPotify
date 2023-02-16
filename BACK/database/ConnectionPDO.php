@@ -3,7 +3,7 @@
 namespace Database;
 use Exception;
 use Dotenv\Dotenv;
-require_once ("vendor/autoload.php");
+require_once __DIR__ . '/../vendor/autoload.php';
 
 
 class ConnectionPDO
@@ -33,6 +33,10 @@ class ConnectionPDO
         $username = $_ENV["DB_USERNAME"];
         $password = $_ENV["DB_PASSWORD"];
         $database = $_ENV["DB_DATABASE"];
+        echo $_ENV["DB_SERVER"] . "<br>";
+        // echo $_ENV["DB_USERNAME"] . "<br>";
+        // echo $_ENV["DB_PASSWORD"] . "<br>";
+        // echo $_ENV["DB_DATABASE"] . "<br>";
         var_dump($database);
         try {
             $connectionPDO = new \PDO("mysql:host=$server;dbname=$database", $username, $password);
@@ -52,8 +56,8 @@ class ConnectionPDO
     }
 
 }
-// $conn = Connection::getInstance()->obtenerConexion();
-// var_dump($conn);
+$conn = ConnectionPDO::getInstance()->obtenerConexion();
+var_dump($conn);
 
 
 
