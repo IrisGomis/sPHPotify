@@ -3,7 +3,7 @@ import "../views/styles/formView.css";
 import SongsForm from "../moleculas/SongsForm.jsx"
 
 
-function FormView() {
+const FormView = () => {
   return (
     <div className="body-view">
       <SongsForm />

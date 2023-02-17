@@ -2,7 +2,7 @@ import React from "react";
 import '../moleculas/styles/songsForm.css';
 import LogoBM from "../../images/logo/para-fondo-negro.png";
 
-function Search() {
+const Search = () => {
   return (
     <>
     <div className="container">

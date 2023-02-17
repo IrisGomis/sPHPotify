@@ -5,7 +5,7 @@ import { faTrash} from "@fortawesome/free-solid-svg-icons";
 
 
 
-function ListIconos() {
+const ListIconos = () => {
   return (
     <div>
       <button>

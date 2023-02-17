@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
-//import InitView from "../src/components/views/InitView.jsx";
-//import ListView from './components/views/ListView';
-import ListViewTrainer from './components/views/ListViewTrainer';
-
+import Routes from '../src/Routes';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <ListViewTrainer />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes />
+     </BrowserRouter> 
+    </>  
   );
 }
 

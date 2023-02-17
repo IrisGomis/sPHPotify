@@ -1,11 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 
-function ListButton() {
+const ListButton = () => {
   return (
     <div className="bottonAdd">
-      <button>Add Song</button> 
-     
+      <NavLink to="/FormView">
+        <button>Add Song</button> 
+      </NavLink>
     </div>
   );
 }

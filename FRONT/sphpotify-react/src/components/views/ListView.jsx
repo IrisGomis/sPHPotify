@@ -1,6 +1,5 @@
 import React from "react";
-import logo from "../../images/logo/para fondo negro.png";
-import ListIconos from "../atomos/ListIconos";
+import logo from "../../images/logo/para-fondo-negro.png";
 import ListButton from "../atomos/ListButton";
 import ListTabla from "../../../src/components/atomos/listTabla";
 import "./styles/listView.css";
@@ -13,12 +12,12 @@ const ListView = () => {
   return (
     <div className="containerList">
       <div className="logoMicro">
-        <img className="microLog" src={logo} />
+        <img className="microLog" src={logo} alt="logo con micro"/>
       </div>
       <div className="bottonAdd">
         <ListButton />
       </div>
-      <ListTabla/>
+      <ListTabla />
     
     </div>
   );
